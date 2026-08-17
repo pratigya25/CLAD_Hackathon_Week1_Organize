@@ -1,0 +1,65 @@
+- !<AssetImportMetadata/86e7dbeb-f93c-41ec-8530-377c4889e722>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> 15524129-3deb-482f-92d3-89d304f2e557
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> 15524129-3deb-482f-92d3-89d304f2e557
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    TypeScriptAsset: !<own> 18cb2668-539c-4615-b457-cb2f65216560
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<TypeScriptAssetData/18cb2668-539c-4615-b457-cb2f65216560>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  VersionPrerelease: ""
+  UpdateOrder: 0
+  ComponentUid: 87dec720-255c-4632-bde6-fd9d5a856ea4
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    autoPlay: false
+    cameraObject: false
+    filterManager: false
+    filterMenu: false
+    menuToggle: false
+    storeRoot: false
+    trackers: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - filterManager: !<MappingBased.AssignableType_1> 00000000-0000-0000-0000-000000000000
+      menuToggle: !<MappingBased.AssignableType_2> 00000000-0000-0000-0000-000000000000
+      filterMenu: !<MappingBased.AssignableType_3> 00000000-0000-0000-0000-000000000000
+      cameraObject: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      storeRoot: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      trackers: !<MappingBased.AssignableType_4[]>
+        []
+      autoPlay: true
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    - '// @input AssignableType_1 filterManager {"hint":"Shared filter state; the sequencer drives this the same way a real menu click would."}'
+    - '// @input AssignableType_2 menuToggle {"hint":"Controls opening/closing the filter menu behind the hamburger button."}'
+    - '// @input AssignableType_3 filterMenu {"hint":"The menu component; used to play the button-press pulse for the option being demoed."}'
+    - '// @input SceneObject cameraObject {"hint":"The Lens camera. Read-only pivot reference -- never modified, so it never fights head tracking."}'
+    - "// @input SceneObject storeRoot {\"hint\":\"The store's root object. The sequencer yaws THIS around the camera to simulate panning, instead of moving the camera.\"}"
+    - '// @input AssignableType_4[] trackers {"hint":"All ProductTracker instances in the store, used to find which products match each demoed filter."}'
+    - '// @input bool autoPlay = true {"hint":"Start the demo automatically on Lens start."}'

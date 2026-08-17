@@ -1,0 +1,25 @@
+# BEGIN Lens Studio managed Agents-Docs block
+.mcp.json
+.cursor/mcp.json
+.codex/config.toml
+.claude/settings.local.json
+# END Lens Studio managed Agents-Docs block
+
+# Secrets -- never commit
+spk_debug_key.pem
+
+# Lens Studio auto-generated / local-only (regenerated on open, not source)
+Cache/
+PluginsUserPreferences/
+Workspaces/
+
+# Local tool scratch state
+.font_tmp/
+.icon_tmp/
+.virtual-scene.json
+
+# OS junk
+Thumbs.db
+.DS_Store
+config.bat
+node_modules

@@ -1,0 +1,52 @@
+- !<AssetImportMetadata/970c071d-6530-4990-8286-bb70d9c880da>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> d5296760-7ad7-48f6-99f5-1736993e0f70
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> d5296760-7ad7-48f6-99f5-1736993e0f70
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    TypeScriptAsset: !<own> 9ebb74de-b62b-4385-94e0-e32a2b7e30c1
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<TypeScriptAssetData/9ebb74de-b62b-4385-94e0-e32a2b7e30c1>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  VersionPrerelease: ""
+  UpdateOrder: 0
+  ComponentUid: abf42d13-08a7-4d3f-a01c-a44a910122e5
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    filterManager: false
+    menuToggle: false
+    toolbar: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - toolbar: !<MappingBased.AssignableType_1> 00000000-0000-0000-0000-000000000000
+      filterManager: !<MappingBased.AssignableType_2> 00000000-0000-0000-0000-000000000000
+      menuToggle: !<MappingBased.AssignableType_3> 00000000-0000-0000-0000-000000000000
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    - '// @input AssignableType_1 toolbar {"hint":"Toolbar component that renders the filter buttons."}'
+    - '// @input AssignableType_2 filterManager {"hint":"Shared filter state that ProductTracker instances subscribe to."}'
+    - '// @input AssignableType_3 menuToggle {"hint":"Optional: controls the hamburger show/hide behavior. When set, the menu auto-collapses after a selection."}'

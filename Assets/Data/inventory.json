@@ -1,0 +1,76 @@
+{
+  "products": [
+    {
+      "markerId": "product_a",
+      "productName": "Organic Milk 1L",
+      "expiryDate": "2026-08-28",
+      "shelfLocation": "Aisle 3 - Dairy",
+      "stockCount": 44,
+      "price": 3.49,
+      "category": "lowStock"
+    },
+    {
+      "markerId": "product_b",
+      "productName": "Whole Wheat Bread",
+      "expiryDate": "2026-09-03",
+      "shelfLocation": "Aisle 1 - Bakery",
+      "stockCount": 10,
+      "price": 2.99,
+      "category": "week"
+    },
+    {
+      "markerId": "product_c",
+      "productName": "Fresh Yogurt Cups",
+      "expiryDate": "2026-08-30",
+      "shelfLocation": "Back Wall - Dairy",
+      "stockCount": 10,
+      "price": 4.29,
+      "category": "week"
+    },
+    {
+      "markerId": "product_d",
+      "productName": "Peas",
+      "expiryDate": "2026-09-05",
+      "shelfLocation": "Front Wall - Frozen",
+      "stockCount": 28,
+      "price": 2.49,
+      "category": "lowStock"
+    },
+    {
+      "markerId": "product_e",
+      "productName": "Greek Yogurt",
+      "expiryDate": "2026-09-01",
+      "shelfLocation": "Left Wall - Dairy",
+      "stockCount": 10,
+      "price": 5.49,
+      "category": "week"
+    },
+    {
+      "markerId": "product_f",
+      "productName": "Canned Tomatoes",
+      "expiryDate": "2026-09-20",
+      "shelfLocation": "Right Wall - Canned Goods",
+      "stockCount": 40,
+      "price": 1.99,
+      "category": "sale"
+    },
+    {
+      "markerId": "product_g",
+      "productName": "Toned Milk (Blue Pack)",
+      "expiryDate": "2026-09-15",
+      "shelfLocation": "Front Wall - Dairy",
+      "stockCount": 35,
+      "price": 3.29,
+      "category": "sale"
+    },
+    {
+      "markerId": "product_h",
+      "productName": "Fresh Curd Tub",
+      "expiryDate": "2026-08-17",
+      "shelfLocation": "Right Wall - Dairy",
+      "stockCount": 8,
+      "price": 3.99,
+      "category": "day"
+    }
+  ]
+}

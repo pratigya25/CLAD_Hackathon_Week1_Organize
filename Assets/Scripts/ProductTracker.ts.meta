@@ -1,0 +1,64 @@
+- !<AssetImportMetadata/7e836a89-a164-40bb-820c-110a107c1503>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> f2b77f96-e222-4009-b658-9da5b4ba0f16
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> f2b77f96-e222-4009-b658-9da5b4ba0f16
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    TypeScriptAsset: !<own> c0b1032a-f281-4763-9afb-78fad71b8a96
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<TypeScriptAssetData/c0b1032a-f281-4763-9afb-78fad71b8a96>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  VersionPrerelease: ""
+  UpdateOrder: 0
+  ComponentUid: 947ed0d0-49dc-4f8d-84b2-30950924d731
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    arrow: false
+    filterManager: false
+    inventoryLookup: false
+    labelScale: false
+    labelText: false
+    markerId: false
+    markerTracking: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - inventoryLookup: !<MappingBased.AssignableType_1> 00000000-0000-0000-0000-000000000000
+      markerTracking: !<reference.MarkerTrackingComponent> 00000000-0000-0000-0000-000000000000
+      markerId: ""
+      labelText: !<reference.Text3D> 00000000-0000-0000-0000-000000000000
+      filterManager: !<MappingBased.AssignableType_2> 00000000-0000-0000-0000-000000000000
+      labelScale: !<float> 1.000000
+      arrow: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    - '// @input AssignableType_1 inventoryLookup {"hint":"The InventoryLookup component that resolves marker IDs to expiry status."}'
+    - "// @input Component.MarkerTrackingComponent markerTracking {\"hint\":\"This marker's tracking component, used to bind found/lost events. Leave empty for a static shelf display that is always visible (e.g. Preview environment demos without live marker tracking).\"}"
+    - '// @input string markerId {"hint":"Must match a markerId entry in Assets/Data/inventory.json."}'
+    - '// @input Component.Text3D labelText {"hint":"Text3D that displays the product name and expiry status."}'
+    - '// @input AssignableType_2 filterManager {"hint":"Optional: drives which products are highlighted based on the active expiry filter."}'
+    - '// @input float labelScale = 1 {"hint":"Scales the label text size. Tune per-instance for viewing distance (1 = default AR-marker distance)."}'
+    - '// @input SceneObject arrow {"hint":"Optional: red marker/arrow pointing down at the shelf. Shown/hidden together with the label text."}'

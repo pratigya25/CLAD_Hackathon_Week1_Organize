@@ -1,0 +1,46 @@
+- !<AssetImportMetadata/b3e74343-28c5-4bac-9db8-3e153d006d1a>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> ece494c6-7049-4f18-8161-57dcd1ad3d5d
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> ece494c6-7049-4f18-8161-57dcd1ad3d5d
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    TypeScriptAsset: !<own> a087ba11-86cc-4a77-aeb2-d04a1c7b50e6
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<TypeScriptAssetData/a087ba11-86cc-4a77-aeb2-d04a1c7b50e6>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  VersionPrerelease: ""
+  UpdateOrder: 0
+  ComponentUid: 413ded18-b8f3-4765-863c-de13097c11fd
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    inventoryAsset: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - inventoryAsset: !<reference.JsonAsset> 00000000-0000-0000-0000-000000000000
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    - '// @input Asset.JsonAsset inventoryAsset {"hint":"JSON asset simulating the store inventory backend (Assets/Data/inventory.json)."}'

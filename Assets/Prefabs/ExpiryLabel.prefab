@@ -1,0 +1,64 @@
+- !<ObjectPrefab/e8921f06-ff4b-4f2c-8310-7b2ef806f890>
+  PackagePath: ""
+  objects:
+    - !<own> 65943a44-3759-410e-8059-7bda6cf0316a
+  LazyLoading: false
+  RetainAssets: true
+  PreviewEnvironment: !<reference> 00000000-0000-0000-0000-000000000000
+- !<SceneObject/65943a44-3759-410e-8059-7bda6cf0316a>
+  PrefabRemaps:
+    - 65943a44-3759-410e-8059-7bda6cf0316a: 65943a44-3759-410e-7fa6-8425930fce95
+    - fce7ca34-f5a2-475c-a306-ea7c7e7e1184: fce7ca34-f5a2-475c-5cf9-15838181ee7b
+  Name: ExpiryLabel
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 20.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> fce7ca34-f5a2-475c-a306-ea7c7e7e1184
+- !<Text3D/fce7ca34-f5a2-475c-a306-ea7c7e7e1184>
+  PrefabRemaps:
+    []
+  Name: Text3D
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> d31d5548-c302-4708-ba80-f1765534e684
+  Text: |-
+    Product
+    Status
+  Editable: false
+  ShowEditingPreview: true
+  TouchHandler: !<reference> 00000000-0000-0000-0000-000000000000
+  EnableRichText: false
+  SizeToFit: false
+  FontSize: 100.000000
+  ExtrusionDepth: 0.000000
+  ExtrudeDirection: Both
+  FontSource: !<reference> 00000000-0000-0000-0000-000000000000
+  PreferredStyle: Regular
+  LayoutRect:
+    left: -7.500000
+    bottom: -2.250000
+    right: 7.500000
+    top: 2.250000
+  DebugRenderLayoutRect: false
+  OverflowVertical: Overflow
+  OverflowHorizontal: Overflow
+  AdvancedLayout: !<TextAdvancedLayout>
+    ExtentsTarget: !<reference> 00000000-0000-0000-0000-000000000000
+    LetterSpacing: 0.000000
+    LineSpacing: 1.000000
+    CapitalizationOverride: None
+  EnableBatching: false

@@ -1,0 +1,55 @@
+- !<AssetImportMetadata/afb41793-dd0c-499d-9b11-f311fabb9bea>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> d2c20200-442b-4ab0-bc9d-cf9c82680ff8
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> d2c20200-442b-4ab0-bc9d-cf9c82680ff8
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    TypeScriptAsset: !<own> 95250ce3-231b-4485-9271-f1d36284e387
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<TypeScriptAssetData/95250ce3-231b-4485-9271-f1d36284e387>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  VersionPrerelease: ""
+  UpdateOrder: 0
+  ComponentUid: 474f98c7-ff82-444d-849f-c10e862d2019
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    autoCloseDelaySeconds: false
+    filterToolbar: false
+    hamburgerIcon: false
+    hamburgerToolbar: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - hamburgerToolbar: !<MappingBased.AssignableType_1> 00000000-0000-0000-0000-000000000000
+      filterToolbar: !<MappingBased.AssignableType_2> 00000000-0000-0000-0000-000000000000
+      hamburgerIcon: !<reference.Texture> 00000000-0000-0000-0000-000000000000
+      autoCloseDelaySeconds: 1.600000
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    - '// @input AssignableType_1 hamburgerToolbar {"hint":"Small always-visible toolbar holding the hamburger button."}'
+    - '// @input AssignableType_2 filterToolbar {"hint":"The filter toolbar that hides behind the hamburger button until toggled open."}'
+    - "// @input Asset.Texture hamburgerIcon {\"hint\":\"Hamburger icon texture (Material Symbols 'menu'). Falls back to text if left empty.\"}"
+    - '// @input float autoCloseDelaySeconds = 1.6 {"hint":"Seconds to wait after a filter selection before the menu auto-collapses so it stops blocking the view."}'
